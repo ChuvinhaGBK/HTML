@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias HTML</title>
+</head>
+<body>
+    <h1>IMAGEM DINAMICA</h1>
+    <p>tente abrir esse site em varios dispositivos</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/fotom.png" type="image/png">
+        <img src="imgs/fotog.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzir audio</h1>
+    <p>vamos reproduzir um audio</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Way back when - Patrick Patrikios.mp3" type="audio/mpeg">
+        <p>infelizmente seu nagevador não consegue reproduzir MP3 <a href="midia/Way back when - Patrick Patrikios.mp3">clique aqui para baixar</a>
+        </p>
+    </audio>
+</body>
+</html>

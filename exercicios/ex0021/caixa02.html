@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 1px 1px 1px #0000007c;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 3px;
+            margin: 9px;
+            border-radius: 5px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+        }
+        article > aside{
+            background-color: rgb(148, 148, 148);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos"> 
+            
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nulla nihil modi maxime doloremque odit facilis nam. Sint quas facilis sapiente accusamus amet nesciunt dolore itaque quam deleniti. Suscipit, ex!</p>
+                <aside>
+                    <p>artigo escrito pelo josé da silva</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>desenvolvimento pelo gabriel</p>
+    </footer>
+</body>
+</html>
